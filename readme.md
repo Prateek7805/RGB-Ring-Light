@@ -1,14 +1,18 @@
-# ESP Servo Controller  
+# RGB Ring Light  
 
-### An ESP8266 based Servo Motor controller with a real-time web interface  
+### An ESP32C3 based RGB Ring Light
 
 ### Features  
 * Clean Web based UI
-* Realtime servo angle control
-* Angle suggestion (n,m) where n < A <= m and (n, m) are nearest multiples of 15
+* Realtime control
 * Wireless (WiFi)
 * Customizable Access Point credentials
 * DarkMode
-* Physical button to reset AP credentials on long press
 * Factory reset functionality
 * OTA updates using compiled binary
+
+### To Do:
+* Physical button to reset AP credentials on long press
+* Animation Library
+* Button controls for brightness, change animation, etc
+* Battery level detection and auto power off
